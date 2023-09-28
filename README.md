@@ -48,7 +48,7 @@ accelerate launch train_text_to_image_lora.py `
 After 15000 steps which took about 2.5h in my environment, I got the output `pytorch_lora_weights.bin`
 
 ### Weapon images generation
-
+Using `weapon_generation.py`, after setting up img_num, prompt, negative_prompt, width, height and other parameters, the weapon images are generated. 
 
 ## References
 1. [Stable Diffusion 微调及推理优化](https://cloud.tencent.com/developer/article/2302436)
