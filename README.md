@@ -1,5 +1,6 @@
 # Stable Diffusion v1.5 LoRA
 Stable Diffusion v1.5 LoRA fine-tuning weapon image generation record
+Axe, spear, trident, whip...
 
 ![merge001.png](img/merge001.png)
 
