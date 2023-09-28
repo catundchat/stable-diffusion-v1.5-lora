@@ -14,7 +14,13 @@ Local running configs
 - PyTorch : 2.0.1+cu118
 - CUDA : 11.8
 - Python 3.10.6
-- necessary packages`pip install -r requirements.txt`
+- necessary packages : `pip install -r requirements.txt`
+
+## Process
+Here I chose Stable Diffusion v1.5 as the base model and collected different weapon images as dataset(axe, spear, trident and whip). After training, the model could generate 4 kinds of weapons with pink blossom patterns on them.
+
+### Data collection
+The axe images for training were uploaded as an example. For each kind of weapon, 100 photos were collected then labeled in `metadata.jsonl`. I preferred images with different backgrounds, lighting conditions, angles, and perspectives to make the model more robust and versatile, so I used Photoshop to simplify some complex backgrounds including watermarks and some strange lines.
 
 ## References
 1. [Stable Diffusion 微调及推理优化](https://cloud.tencent.com/developer/article/2302436)
