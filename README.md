@@ -28,7 +28,27 @@ The model is on huggingface [runwayml/stable-diffusion-v1-5](https://huggingface
 v1-5-pruned.ckpt - 7.7GB, ema+non-ema weights. uses more VRAM - suitable for fine-tuning is needed.
 
 ### Training
-I chose the 
+Using `train_text_to_image_lora.py`, I trained the model with the following commands:
+```
+accelerate launch train_text_to_image_lora.py `
+  --pretrained_model_name_or_path="D:\models--runwayml--stable-diffusion-v1-5" `
+  --resolution=512 --center_crop --random_flip `
+  --train_batch_size=1 `
+  --gradient_accumulation_steps=4 `
+  --gradient_checkpointing `
+  --mixed_precision="fp16" `
+  --max_train_steps=15000 `
+  --learning_rate=1e-05 `
+  --max_grad_norm=1 `
+  --lr_scheduler="constant" --lr_warmup_steps=0 `
+  --output_dir="D:\weapon\axe_output" `
+  --num_train_epochs=600 `
+  --train_data_dir="D:\weapon\axe"
+```
+After 15000 steps which took about 2.5h in my environment, I got the output `pytorch_lora_weights.bin`
+
+### Weapon images generation
+
 
 ## References
 1. [Stable Diffusion 微调及推理优化](https://cloud.tencent.com/developer/article/2302436)
