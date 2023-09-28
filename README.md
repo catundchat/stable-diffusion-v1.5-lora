@@ -10,7 +10,9 @@ Stable Diffusion v1.5 LoRA fine-tuning weapon image generation record
 ## Requirements
 Local running configs
 - Windows 10 system
-- RTX A5000(vram 24G)
+- RTX A5000(VRAM 24G)
+- PyTorch : 2.0.1+cu118
+- CUDA : 11.8
 - Python 3.10.6
 - necessary packages`pip install -r requirements.txt`
 
