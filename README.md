@@ -28,7 +28,7 @@ The model is on huggingface [runwayml/stable-diffusion-v1-5](https://huggingface
 v1-5-pruned.ckpt - 7.7GB, ema+non-ema weights. uses more VRAM - suitable for fine-tuning is needed.
 
 ### Training
-I chose
+I chose the 
 
 ## References
 1. [Stable Diffusion 微调及推理优化](https://cloud.tencent.com/developer/article/2302436)
