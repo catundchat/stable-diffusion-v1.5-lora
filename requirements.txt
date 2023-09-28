@@ -3,3 +3,5 @@ gradio
 accelerate
 diffusers
 safetensors
+numpy
+datasets
