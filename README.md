@@ -1,6 +1,8 @@
 # Stable Diffusion v1.5 LoRA
 Stable Diffusion v1.5 LoRA fine-tuning weapon image generation record (axe, spear, trident, whip)
 
+Stable Diffusion v1.5经LoRA方法微调后生成武器图片实录（斧子，长矛，三叉戟，鞭子）
+
 ![merge001.png](img/merge001.png)
 
 ## Introduction
