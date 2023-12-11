@@ -16,7 +16,7 @@ Local running configs
 - PyTorch : 2.0.1+cu118
 - CUDA : 11.8
 - Python 3.10.6
-- necessary packages : `pip install -r requirements.txt`
+- Packages : `pip install -r requirements.txt`
 
 ## Process
 Here I chose Stable Diffusion v1.5 as the base model and collected different weapon images as dataset(axe, spear, trident and whip). After training, the model could generate 4 kinds of weapons with pink blossom patterns on them.
