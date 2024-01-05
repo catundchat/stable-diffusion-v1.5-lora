@@ -29,6 +29,7 @@ The model is on huggingface [runwayml/stable-diffusion-v1-5](https://huggingface
 
 v1-5-pruned.ckpt - 7.7GB, ema+non-ema weights. uses more VRAM - suitable for fine-tuning is needed.
 
+
 ### Training
 Using `train_text_to_image_lora.py`, I trained the model with the following commands:
 ```
