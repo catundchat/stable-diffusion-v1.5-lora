@@ -87,9 +87,11 @@ After 1500 steps which took about 0.5h in my env, I got the output file `pytorch
 Here is some relevant photo generation of it.
 
 Dragon:
+
 ![dragon](img2/dragon.png)
 
 Bird:
+
 ![bird1](img2/bird1.png)
 ![bird2](img2/bird2.png)
 ![bird3](img2/bird3.png)
