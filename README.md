@@ -55,13 +55,13 @@ Using `weapon_generation.py`, after setting up img_num, prompt, negative_prompt,
 
 ![merge002.png](img/merge002.png)
 
-## Animal photo generation
+## PS:Animal photo generation
 
 ### Intro
 Training sdv1.5 to generate particular style animal photos according to artists's works.
 
 ### Datasets
-10 pictures from Artist Lee Sangsoo.
+10 pictures from Artist Lee Sangsoo in `dataset/animal`
 
 ### Parameters
 Using `train_text_to_image_lora.py`, I trained the model with the following commands:
@@ -84,6 +84,7 @@ accelerate launch train_text_to_image_lora.py `
 After 1500 steps which took about 0.5h in my env, I got the output file `pytorch_lora_weights.safetensors`
 
 ### Examples
+Here is some relevant photo generation of it.
 ![]()
 
 ## References
