@@ -90,9 +90,9 @@ Dragon:
 ![dragon](img2/dragon.png)
 
 Bird:
-![bird1](img/bird1.png)
-![bird2](img/bird2.png)
-![bird3](img/bird3.png)
+![bird1](img2/bird1.png)
+![bird2](img2/bird2.png)
+![bird3](img2/bird3.png)
 
 ## References
 1. [Stable Diffusion 微调及推理优化](https://cloud.tencent.com/developer/article/2302436)
