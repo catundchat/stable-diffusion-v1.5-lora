@@ -85,7 +85,14 @@ After 1500 steps which took about 0.5h in my env, I got the output file `pytorch
 
 ### Examples
 Here is some relevant photo generation of it.
-![]()
+
+Dragon:
+![dragon](img2/dragon.jpg)
+
+Bird:
+![bird1](img/bird1.jpg)
+![bird2](img/bird2.jpg)
+![bird3](img/bird3.jpg)
 
 ## References
 1. [Stable Diffusion 微调及推理优化](https://cloud.tencent.com/developer/article/2302436)
