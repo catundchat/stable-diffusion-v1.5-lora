@@ -55,6 +55,18 @@ Using `weapon_generation.py`, after setting up img_num, prompt, negative_prompt,
 
 ![merge002.png](img/merge002.png)
 
+## Animal photo generation
+
+<details>
+  <summary>Animal Picture Generation</summary>
+  ### introduction
+  
+  Training sdv1.5 to generate particular style animal photos according to artists's works.
+</details>
+
+
+
+
 ## References
 1. [Stable Diffusion 微调及推理优化](https://cloud.tencent.com/developer/article/2302436)
 2. [Using LoRA for Efficient Stable Diffusion Fine-Tuning](https://huggingface.co/blog/lora)
