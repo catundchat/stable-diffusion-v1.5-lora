@@ -57,15 +57,28 @@ Using `weapon_generation.py`, after setting up img_num, prompt, negative_prompt,
 
 ## Animal photo generation
 
-<details>
-  <summary>Animal Picture Generation</summary>
-  ### introduction
-  
-  Training sdv1.5 to generate particular style animal photos according to artists's works.
-</details>
+### Intro
+Training sdv1.5 to generate particular style animal photos according to artists's works.
 
-
-
+### Parameters
+Using `train_text_to_image_lora.py`, I trained the model with the following commands:
+```
+accelerate launch train_text_to_image_lora.py `
+  --pretrained_model_name_or_path="D:\models--runwayml--stable-diffusion-v1-5" `
+  --resolution=512 --center_crop --random_flip `
+  --train_batch_size=2 `
+  --gradient_accumulation_steps=2 `
+  --gradient_checkpointing `
+  --mixed_precision="fp16" `
+  --max_train_steps=1500 `
+  --learning_rate=5e-06 `
+  --max_grad_norm=0.5 `
+  --lr_scheduler="constant" --lr_warmup_steps=0 `
+  --output_dir="D:\weapon\animal_output_v1" `
+  --num_train_epochs=50 `
+  --train_data_dir="D:\weapon\animal"
+```
+After 1500 steps which took about 0.5h in my env, I got the output file `pytorch_lora_weights.safetensors`
 
 ## References
 1. [Stable Diffusion 微调及推理优化](https://cloud.tencent.com/developer/article/2302436)
