@@ -60,6 +60,9 @@ Using `weapon_generation.py`, after setting up img_num, prompt, negative_prompt,
 ### Intro
 Training sdv1.5 to generate particular style animal photos according to artists's works.
 
+### Datasets
+10 pictures from Artist Lee Sangsoo.
+
 ### Parameters
 Using `train_text_to_image_lora.py`, I trained the model with the following commands:
 ```
