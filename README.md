@@ -80,6 +80,9 @@ accelerate launch train_text_to_image_lora.py `
 ```
 After 1500 steps which took about 0.5h in my env, I got the output file `pytorch_lora_weights.safetensors`
 
+### Examples
+![]()
+
 ## References
 1. [Stable Diffusion 微调及推理优化](https://cloud.tencent.com/developer/article/2302436)
 2. [Using LoRA for Efficient Stable Diffusion Fine-Tuning](https://huggingface.co/blog/lora)
